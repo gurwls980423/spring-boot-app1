@@ -33,7 +33,7 @@ jobs:
       uses: docker/login-action@v2
       with:
         username: gurwls980423@gmail.com # GitHub Secrets에 저장된 DockerHub 사용자명
-        password: ${{ secrets.DOCKERHUB_PASSWORD }}   # GitHub Secrets에 저장된 DockerHub 비밀번호
+        password: gurwls0177@   # GitHub Secrets에 저장된 DockerHub 비밀번호
 
     # 5. DockerHub에 이미지 푸시
     - name: Docker Hub image push
